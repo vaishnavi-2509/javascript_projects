@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.background{
+    background-image: url(images/background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100wh;
+}
+.container{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 300px;
+}
+.box{
+    height: auto;
+    background-color: rgb(20, 20, 52);
+    width: 80%;
+    border: 5px solid rgb(67, 67, 103);
+    border-radius: 3rem;  
+}
+.content{
+    color: rgb(20, 20, 52);;
+    text-align: center;
+}
+.content h1{
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 90%;
+}
+.content h2{
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 80%;
+}
+.calculate-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 50px;
+    place-content: center;
+    place-items: center;
+}
+
+input{
+    height: 50px;
+    padding: 0 20px;
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    width: 100%;
+    max-width: 30rem;
+}
+input::placeholder{
+    color: white;
+    font-size: 10px;
+}
+input:focus-visible{
+    outline: 2px solid rgb(67, 67, 103);
+    border: 2px solid rgb(67, 67, 103);
+}
+.calculate-form button{
+    grid-column: 1/3;
+}
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(85, 85, 142);
+    font-size: 20px;
+    color: white;
+    border: none;    
+}
+.button:hover{
+    opacity: 0.9;
+}
+.button:active{
+    opacity: 1;
+    background-color: rgb(128, 128, 171);
+}
+.result{
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+@media (max-width: 1400px){
+    .container{
+        width: 50%;
+    }
+    .box{
+        width: 90%;
+    }
+}
+@media (max-width: 786px){
+    .container{
+        width: 50%;
+        
+    }
+    .box{
+        width: 90%;
+    }
+    .calculate-form{
+        grid-template-columns: 1fr;
+    }
+    input{
+        width: 50%;
+    }
+    .calculate-form button{
+        grid-column: 1/2;
+    }
+    .content h1{
+        font-size: 4rem;
+        font-weight: 400;
+        line-height: 80%;
+    }
+    .content h2{
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 70%;
+    }
+}
+@media (max-width: 480px){
+    .container{
+        width: 100%;
+        
+    }
+    input{
+        width: 50%;
+    }
+    
+}
+

@@ -1,0 +1,1 @@
+            initialtextEL.classList.add("hide");
