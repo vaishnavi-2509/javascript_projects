@@ -1,0 +1,168 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 0.2em;
+    color: white
+}
+.navbar{
+    background-color: rgb(34, 34, 88);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   padding:  0 70px;
+}
+.items
+{
+    display: flex;
+    gap:20px;
+}
+.image{
+    height: 100vh;
+    width: 100wh;
+    background-image: url(images/hero_image.png);
+    position: relative;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+.centered{
+   position: absolute;
+   text-align: center;
+   margin: 15%;
+}
+.centered h1{
+    font-size: 40px;
+}
+.centered p{
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+}
+.centered h5{
+    font-size: 12px;
+    line-height: normal;
+    padding:0 157px ;
+}
+.music{
+    background-color:rgb(34, 34, 88);
+    color: white;
+    height: 100vh;
+    text-align: center;
+    background-position: fixed;
+}
+.music .text{
+    padding-top:10px;
+    
+}
+.text h1{
+    font-size: 30px;
+}
+.text h2{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.text h5{
+    font-size: 12px;
+    line-height: normal;
+    padding: 10px 286px;
+}
+.start_button{
+    background-color: red;
+    padding: 12px;
+    color: white;
+}
+.text p{
+    font-size: 12px;
+    padding-top: 20px;
+    color: white;
+}
+.laptop{
+    margin-top: -400px;
+  position: relative;
+  top: 500px;
+}
+.laptop_content{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 300px;
+}
+.laptop_content p{
+    line-height: normal;
+    color: rgb(70, 69, 69);
+    padding: 0 200px;
+    font-size: 15px;
+}
+.second_button{
+    background-color: rgb(34, 34, 88);
+    color: white;
+    padding: 12px;
+}
+.sec_laptop{
+    position: relative; 
+    padding-top: 50px;
+    
+}
+.video{
+    height: 50vh;
+    width: 100wh;
+    background-image: url(images/video.png);
+    position: relative;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    padding: 290px 120px;
+    line-height: normal;
+}
+
+.giftcard{
+    display: flex;
+    height: 70vh;
+    color: black;
+    align-items: center;
+    margin: 20px;
+}
+.giftcard .giftcard_image{
+    padding: 0 50px;
+}
+.giftcard .giftcard-content{
+    padding: 0 100px;
+    line-height: normal;
+}
+.third_button{
+    background-color: rgb(34, 34, 88);
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.last{
+    height: 30vh;
+    width: 100wh;
+    display: flex;
+    gap: 30px;
+    background-color: rgb(34, 34, 88);
+    color: white;
+    line-height: normal;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+.last h1{
+    font-size: 20px;
+}
+.last li{
+    
+    font-size: 10px;
+}
+.list{
+list-style: none;
+text-align: left;
+padding: 0;
+}
+.first, .second, .third, .fourth{
+width: 18%;
+}

@@ -3,6 +3,7 @@ const imgEL=document.getElementById("img-section");
 const qrsectionEL=document.getElementById("qr-section");
 const inputTextEL=document.getElementById("input-text");
 const generateBtnEl=document.getElementById("submit-btn");
+
 const render=(url)=>{
 if(!url) return;
 generateBtnEl.innerText="Generating QR Code ...";
